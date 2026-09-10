@@ -9,7 +9,7 @@ body {
 header {
     height: 60vh;
     min-height: 400px;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+    background: #5C3A21;
                 url('coffee-bg.jpg'); 
     background-size: cover;
     background-position: center;
