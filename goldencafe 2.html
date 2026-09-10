@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden House Coffee</title>
+    <link rel="stylesheet" href="style.css">
+    </style>
+</head>
+<body>
+
+    <!-- Navigation bar -->
+    <nav>
+        <ul>
+            <li><a href="goldencafe.html">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#story">Our Story</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+<!-- Header area -->
+    <header id="home" class="hero">
+        <h1>Welcome to Golden House Coffee</h1>
+        <p>We serve high quality coffee made with love.</p>
+        <a href="#menu" id="menuBtn">Explore our Menu</a>
+    </header>
+    <!-- Menu section -->
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <section id="menu">
+    <!-- Matcha Item -->
+    <div class="menu-item">
+        <img src="matcha.jpg" alt="Matcha" class="menu-img">
+        <div class="item-details">
+            <span class="item-name">Matcha</span>
+            <span class="price">£3.20</span>
+        </div>
+    </div>
+
+    <!-- Coffee Latte Item -->
+    <div class="menu-item">
+        <img src="latte.jpg" alt="Coffee Latte" class="menu-img">
+        <div class="item-details">
+            <span class="coffee late ">Coffee Latte</span>
+            <span class="price">£2.40</span>
+        </div>
+    </div>
+
+    <!-- Black Tea Item -->
+    <div class="menu-item">
+        <img src="tea.jpg" alt="Black Tea" class="menu-img">
+        <div class="item-details">
+            <span class="item-name">Black Tea</span>
+            <span class="price">£2.20</span>
+        </div>
+    </div>
+    <!--Croissant-->
+    <div class="menu-item">
+        <img src="pastries.jpg" alt="Croissant" class="menu-img">
+        <div class="item details">
+            <span class="item-name"> Croissant</span>
+            <span class="price">£2.99</span>
+        </div>
+    </div>
+</section>
+    <!--Our Story section-->
+    <section id="story" class="content-section">
+    <h2>Our Story</h2>
+    <p>Golden House Coffee started in 2020 to create a relaxing cafe for students and young people. We offer affordable drinks, free Wi-Fi, and friendly place to study or meet friends.</p>
+</section>
+<!--Gallery-->
+<section id="gallery" class="content-section">
+    <h2>Our Gallery</h2>
+    <div class="gallery-grid">
+        <img src="latte art.jpg" alt="Latte Art">
+        <img src="shop interior.jpg" alt="Shop Interior">
+        <img src="pastries.jpg" alt="Pastries">
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h3>Contact Us</h3>
+        <div class="contact-container">
+            <p>Email: <a href="mailto:goldenhousecoffee@gmail.com">goldenhousecoffee@gmail.com</a></p>
+            
+            <!-- Optional: A real contact form -->
+            <form id="contactForm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+                <button onclick="orderNow()">Order Now</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2020 Golden House Coffee</p>
+        <footer>
+  <p>Follow us on Instagram, Facebook and Tiktok</p>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
