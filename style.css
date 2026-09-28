@@ -1,0 +1,262 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+
+header {
+    height: 60vh;
+    min-height: 400px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                url('coffee-bg.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+
+#contact {
+    padding: 40px;
+    background: #333;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #3e2723;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+footer {
+    background: #341a15;
+    color: rgba(99, 0, 0, 0.059);
+    text-align: center;
+    padding: 20px;
+}
+
+
+nav {
+    background-color: rgb(68, 39, 4);
+    padding: 15px;
+    
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s; 
+}
+
+nav a:hover {
+    color: orange;
+}
+
+
+header {
+    
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("coffee.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px; 
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("coffee.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 60vh; 
+}
+
+
+header h1, 
+header p, 
+header a {
+    color: white;
+    margin-bottom: 15px;
+}
+
+h1{
+    padding: 80px 10%;
+    text-align: center;
+    line-height: 1.8;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #3d2b1f; 
+    margin-bottom: 20px;
+}
+
+
+
+.menu-item {
+    max-width: 400px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+    padding: 15px 0;
+    font-size: 1.2rem;
+}
+
+
+.price {
+    font-weight: bold;
+    color: #6f4e37; /* Coffee brown */
+}
+
+
+footer {
+    background-color: #421f03;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+footer a {
+    color: #fdfaf6;
+    text-decoration: underline;
+}
+
+/* Section Headings */
+.menu-section h2, .contact-section h2 {
+    color: #f7a01b;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 50px;
+}
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; 
+    border-radius: 8px;
+}
+/* Center the entire menu section */
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Individual menu item row */
+.menu-item {
+    display: flex;
+    align-items: center; /* Vertically centers text with image */
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 500px; /* Limits width to keep it centered */
+    margin: 15px 0;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style for the images */
+.menu-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover; /* Prevents image stretching */
+    border-radius: 50%; /* Makes the image circular */
+    margin-right: 20px;
+}
+
+/* Align text information */
+.item-info {
+    text-align: left;
+    flex-grow: 1;
+}
+
+.item-info h3 {
+    margin: 0;
+    font-size: 1.4rem;
+}
+#menu {
+    max-width: 700px;
+    margin: 0 auto; /* Centers the whole menu on the page */
+    padding: 20px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center; /* Centers image and text vertically */
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.menu-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; /* Makes image a circle */
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.item-details {
+    display: flex;
+    justify-content: space-between; /* Pushes name to left and price to right */
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
